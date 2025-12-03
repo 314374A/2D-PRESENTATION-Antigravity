@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Prezentáció</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="presentation-container">
+        <!-- 1. Sor -->
+        <div class="slide" data-x="0" data-y="0" style="background-color: #FF6B6B;">
+            <div class="content">
+                <h1>Start</h1>
+                <p>Használd a nyilakat a navigációhoz!</p>
+                <div class="nav-hint">→ vagy ↓</div>
+            </div>
+        </div>
+        <div class="slide" data-x="1" data-y="0" style="background-color: #4ECDC4;">
+            <div class="content">
+                <h1>1. Sor, 2. Oszlop</h1>
+                <p>Ez a második dia az első sorban.</p>
+            </div>
+        </div>
+        <div class="slide" data-x="2" data-y="0" style="background-color: #45B7D1;">
+            <div class="content">
+                <h1>1. Sor, 3. Oszlop</h1>
+                <p>Még mindig az első sorban vagyunk.</p>
+            </div>
+        </div>
+
+        <!-- 2. Sor -->
+        <div class="slide" data-x="0" data-y="1" style="background-color: #96CEB4;">
+            <div class="content">
+                <h1>2. Sor, 1. Oszlop</h1>
+                <p>Lefelé léptél!</p>
+            </div>
+        </div>
+        <div class="slide" data-x="1" data-y="1" style="background-color: #FFEEAD;">
+            <div class="content">
+                <h1>Középpont</h1>
+                <p>Ez a rács közepe (2. sor, 2. oszlop).</p>
+                <p>Innen mehetsz bármerre.</p>
+            </div>
+        </div>
+        <div class="slide" data-x="2" data-y="1" style="background-color: #D4A5A5;">
+            <div class="content">
+                <h1>2. Sor, 3. Oszlop</h1>
+                <p>Jobb szél, középső sor.</p>
+            </div>
+        </div>
+
+        <!-- 3. Sor -->
+        <div class="slide" data-x="0" data-y="2" style="background-color: #9B59B6;">
+            <div class="content">
+                <h1>3. Sor, 1. Oszlop</h1>
+                <p>Bal alsó sarok.</p>
+            </div>
+        </div>
+        <div class="slide" data-x="1" data-y="2" style="background-color: #3498DB;">
+            <div class="content">
+                <h1>3. Sor, 2. Oszlop</h1>
+                <p>Majdnem vége.</p>
+            </div>
+        </div>
+        <div class="slide" data-x="2" data-y="2" style="background-color: #E74C3C;">
+            <div class="content">
+                <h1>Vége</h1>
+                <p>Elérted a jobb alsó sarkot.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
